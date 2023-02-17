@@ -2,11 +2,11 @@
   "name": "graphql-overwatchapi",
   "version": "1.0.0",
   "description": "graphql api for overwatch heroes, lore, and extras!",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
     "watch": "tsc --w",
-    "start": "nodemon dist/index.js"
+    "start": "nodemon dist/server.js"
   },
   "author": "",
   "license": "ISC",
