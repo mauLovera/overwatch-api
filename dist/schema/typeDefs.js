@@ -6,5 +6,6 @@ export const typeDefs = `#graphql
 
   type Query {
     heroes: [Hero]
+    hero(name: String!): Hero
   }
 `;
