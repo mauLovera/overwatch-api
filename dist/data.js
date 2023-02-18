@@ -35,7 +35,7 @@ export const heroes = [
             },
             {
                 name: 'Coach Gun',
-                description: 'Blast enemies in front of you and knock yourself backwards.',
+                description: 'Blast enemies in front of you and knock yourself backward.',
             },
             {
                 name: 'Dynamite',
@@ -155,7 +155,7 @@ export const heroes = [
             },
             {
                 name: 'Magnetic Grenade',
-                description: 'Throw a short range grenade that homes in on nearby enemies and deals additional damage if it sticks to them.',
+                description: 'Throw a short-range grenade that homes in on nearby enemies and deals additional damage if it sticks to them.',
             },
             {
                 name: 'Deadeye',
@@ -179,7 +179,7 @@ export const heroes = [
             },
             {
                 name: 'Boosters',
-                description: 'Fly in the diretion you are facing.',
+                description: 'Fly in the direction you are facing.',
             },
             {
                 name: 'Defense Matrix',
@@ -234,8 +234,8 @@ export const heroes = [
     {
         name: 'Echo',
         role: 'Damage',
-        origin: 'Switzerland (formerly), United States (fromely), Watchpoint: Gibraltar',
-        bio: 'Developed by Overwatch roboticist Mina Liao, the highly adaptable, advanced AI-driven robot Echo derives her personality from her creator. But after Liao was killed, her project was shut down and Echo placed in military quarantine. Years later, she was freed by Cole Cassidy and joined the new Overwatch in the fight to save the world.',
+        origin: 'Switzerland (formerly), United States (formerly), Watchpoint: Gibraltar',
+        bio: 'Developed by Overwatch roboticist Mina Liao, the highly adaptable, advanced AI-driven robot Echo derives her personality from her creator. But after Liao was killed, her project was shut down and Echo was placed in military quarantine. Years later, she was freed by Cole Cassidy and joined the new Overwatch in the fight to save the world.',
         abilities: [
             {
                 name: 'Tri-Shot',
@@ -271,7 +271,7 @@ export const heroes = [
         abilities: [
             {
                 name: 'Shuriken',
-                description: 'Throw an accurate burst of 3 projectiles. With alternate-fire, throw a fan of 3 projectiles in an arc.',
+                description: 'Throw an accurate burst of 3 projectiles. With alternate fire, throw a fan of 3 projectiles in an arc.',
             },
             {
                 name: 'Deflect',
@@ -315,7 +315,7 @@ export const heroes = [
             },
             {
                 name: 'Dragonstrike',
-                description: 'Launch a deadly Dragon Spirit that devestates enemies it passes through.',
+                description: 'Launch a deadly Dragon Spirit that devastates enemies it passes through.',
             },
             {
                 name: 'Wall Climb',
@@ -350,1081 +350,657 @@ export const heroes = [
     {
         name: 'Junkrat',
         role: 'Damage',
+        origin: 'Junkertown, Australia (formerly)',
+        bio: 'Growing up in the irradiated wasteland surrounding Junkertown, Junkrat is an unhinged, explosives-obsessed oddity. One of the lawless “Junkers” of the Outback, he and his partner/bodyguard Roadhog live for crime sprees and mayhem.',
+        abilities: [
+            {
+                name: 'Frag Launcher',
+                description: 'Bouncing explosive projectile weapon.',
+            },
+            {
+                name: 'Concussion Mine',
+                description: 'Throw a detonatable knockback mine.',
+            },
+            {
+                name: 'Steel Trap',
+                description: 'Place an immobilizing trap.',
+            },
+            {
+                name: 'Rip Tire',
+                description: 'Drive and detonate an explosive tire.',
+            },
+            {
+                name: 'Total Mayhem',
+                description: 'Deals no damage to self with explosives. Drop bombs on death.',
+            },
+        ],
     },
     {
         name: 'Kiriko',
         role: 'Support',
+        origin: 'Kanezaka, Japan',
+        bio: 'Kiriko learned the deadly art of ninjutsu from her mother, Asa. When the Shimada clan fell, the rival Hashimoto took Kiriko’s father hostage. For her safety, Kiriko moved in with her grandmother, who taught her the art of healing. Years later, Kiriko has returned home to free her community from the cruel grip of the Hashimoto.',
+        abilities: [
+            {
+                name: 'Healing Ofuda',
+                description: 'Channel a burst of healing talismans that can seek targeted allies.',
+            },
+            {
+                name: 'Kunai',
+                description: 'Thrown projectile that deals increased critical damage.',
+            },
+            {
+                name: 'Swift Step',
+                description: 'Teleport directly to an ally.',
+            },
+            {
+                name: 'Protection Suzu',
+                description: 'Throw a protective charm to make allies become briefly invulnerable and cleansed of most negative effects.',
+            },
+            {
+                name: 'Kitsune Rush',
+                description: 'Summon a fox spirit that rushes forward, accelerating the movement, attack speed, and cooldown of allies that follow in its path.',
+            },
+        ],
     },
     {
         name: 'Lúcio',
         role: 'Support',
+        origin: 'Rio de Janeiro, Brazil',
+        bio: 'Lúcio grew up poor in the Rio favelas, before eventually becoming a popular underground DJ. But when the Vishkar Corporation redeveloped the city and cracked down on the community, Lúcio reclaimed his father’s sonic technology from the corporation and used it to rally his people to action. Now an international celebrity, he inspires social change through his music and actions.',
+        abilities: [
+            {
+                name: 'Sonic Amplifier',
+                description: 'Sonic projectile launcher.',
+            },
+            {
+                name: 'Crossfade',
+                description: 'Switches between two songs: Healing Boost heals nearby allies, and Speed Boost makes nearby allies move faster.',
+            },
+            {
+                name: 'Amp It Up',
+                description: 'Increase the effectiveness of your current song.',
+            },
+            {
+                name: 'Soundwave',
+                description: 'Create a short-range blast wave to knock enemies away from you.',
+            },
+            {
+                name: 'Sound Barrier',
+                description: 'Create temporary extra health for nearby allies.',
+            },
+            {
+                name: 'Wall Ride',
+                description: 'Jump onto a wall to ride along it.',
+            },
+        ],
     },
     {
         name: 'Mei',
         role: 'Damage',
+        origin: 'Xi’an, China (formerly)',
+        bio: 'As a peerless climatologist stationed in Ecopoint: Antarctica, Mei-Ling Zhou’s team was forced into cryostasis during a turbulent storm. Sadly, the cryostasis lasted far longer than intended, and Mei awoke nine years later as the only survivor in a damaged station. With the help of her robot companion, Snowball, Mei invented a new technology to escape Antarctica and join up with the new Overwatch.',
+        abilities: [
+            {
+                name: 'Endothermic Blaster',
+                description: 'Short-range spray weapon that slows enemies. Can also fire long-range icicles.',
+            },
+            {
+                name: 'Cryo-Freeze',
+                description: 'Become invulnerable and heal yourself.',
+            },
+            {
+                name: 'Ice Wall',
+                description: 'Create a wall in front of you.',
+            },
+            {
+                name: 'Blizzard',
+                description: 'Launch a weather control drone that freezes enemies in a wide area.',
+            },
+        ],
     },
     {
-        name: "Mercy",
-        role: "Support",
-        origin: "Zürich, Switzerland (formerly), Watchpoint: Gibraltar",
+        name: 'Mercy',
+        role: 'Support',
+        origin: 'Zürich, Switzerland (formerly), Watchpoint: Gibraltar',
         bio: 'A guardian angel to those who come under her care, Dr. Angela Ziegler is a peerless healer, a brilliant scientist, and a staunch advocate for peace.',
         abilities: [
             {
                 name: 'Caduceus Staff',
-                description: 'Hold to heal an ally.'
+                description: 'Hold to heal an ally.',
             },
             {
                 name: 'Caduceus Blaster',
-                description: 'Automatic weapon.'
+                description: 'Automatic weapon.',
             },
             {
                 name: 'Guardian Angel',
-                description: 'Fly towards an ally. While in flight, Jump launches you forward, and Crouch lauches you upward.'
+                description: 'Fly towards an ally. While in flight, Jump launches you forward, and Crouch launches you upward.',
             },
             {
                 name: 'Resurrect',
-                description: 'Revive a dead teammate.'
+                description: 'Revive a dead teammate.',
             },
             {
                 name: 'Angelic Descent',
-                description: 'Fall very slowly.'
+                description: 'Fall very slowly.',
             },
             {
                 name: 'Valkyrie',
-                description: 'Gain ability to fly. Abilities are enhanced.'
-            }
-        ]
+                description: 'Gain the ability to fly. Abilities are enhanced.',
+            },
+        ],
     },
     {
-        name: "Moira",
-        role: "Support",
+        name: 'Moira',
+        role: 'Support',
         origin: 'Oasis, Iraq',
         bio: "Equal parts brilliant and controversial, scientist Moira O'Deorain is on the cutting edge of genetic engineering, searching for a way to rewrite the fundamental building blocks of life.",
         abilities: [
             {
                 name: 'Biotic Grasp',
-                description: 'Hold to heal all allies in front of you. Consumes biotic energy. Long range beam weapon. Damage dealt heals you and replenishes your biotic energy.'
+                description: 'Hold to heal all allies in front of you. Consumes biotic energy. Long-range beam weapon. Damage dealt heals you and replenishes your biotic energy.',
             },
             {
                 name: 'Biotic Orb',
-                description: 'Launch a bouncing sphere that either heals nearby allies or damages nearby enemies.'
+                description: 'Launch a bouncing sphere that either heals nearby allies or damages, nearby enemies.',
             },
             {
                 name: 'Fade',
-                description: 'Disappear, move faster, and become invulnerable, you cannot shoot.'
+                description: 'Disappear, move faster, and become invulnerable, you cannot shoot.',
             },
             {
                 name: 'Coalescence',
-                description: 'Fire a beam that heals allies and damages enemies'
-            }
-        ]
+                description: 'Fire a beam that heals allies and damages enemies',
+            },
+        ],
     },
     {
-        name: "Orisa",
-        role: "Tank",
-        origin: "Numbani, Africa",
+        name: 'Orisa',
+        role: 'Tank',
+        origin: 'Numbani, Africa',
         bio: "Built from parts of one of Numbani's short-lived OR15 defense robots, Orisa is the city's newest protector, though she still has much to learn.",
         abilities: [
             {
                 name: 'Augmented Fusion Driver',
-                description: 'Automatic heat based automatic. Deals more damage at closer range.'
+                description: 'Automatic heat-based gun. Deals more damage at closer range.',
             },
             {
                 name: 'Energy Javelin',
-                description: 'Launch your javelin at an enemy to stun and knock them back. More effective if the enemy hits a wall'
+                description: 'Launch your javelin at an enemy to stun and knock them back. More effective if the enemy hits a wall',
             },
             {
                 name: 'Fortify',
-                description: 'Gain temporary health, reducing all damage taken and becoming unstoppable. While active, heat generated by your weapon is reduced.'
+                description: 'Gain temporary health, reducing all damage taken and becoming unstoppable. While active, heat generated by your weapon is reduced.',
             },
             {
                 name: 'Javelin Spin',
-                description: 'Spin your javelin to destroy projectiles and block melee attacks, while also pushing enemies and increasing forward speed.'
+                description: 'Spin your javelin to destroy projectiles and block melee attacks, while also pushing enemies and increasing forward speed.',
             },
             {
                 name: 'Terra Surge',
-                description: 'Sweep in enemies and anchor down, gaining the effects of Fortify and charging up a surge of damage. Use Q to unleash the surge early.'
-            }
-        ]
+                description: 'Sweep in enemies and anchor down, gaining the effects of Fortify and charging up a surge of damage. Use Q to unleash the surge early.',
+            },
+        ],
     },
     {
-        name: "Pharah",
-        role: "Damage",
-        origin: "Giza, Egypt (formerly), Watchpoint: Gibraltar",
+        name: 'Pharah',
+        role: 'Damage',
+        origin: 'Giza, Egypt (formerly), Watchpoint: Gibraltar',
         bio: "Fareeha Amari's commitment to duty runs in her blood. She comes from a long line of highly decorated soldiers and burns with the desire to serve with honor.",
         abilities: [
             {
                 name: 'Rocket Launcher',
-                description: 'Long-range explosive projectile weapon.'
+                description: 'Long-range explosive projectile weapon.',
             },
             {
                 name: 'Jump Jet',
-                description: 'Fly rapidly upwards.'
+                description: 'Fly rapidly upwards.',
             },
             {
                 name: 'Concussive Blast',
-                description: 'Launch an explosive blast to knock back enemies.'
+                description: 'Launch an explosive blast to knock back enemies.',
             },
             {
                 name: 'Barrage',
-                description: 'Launch a continuous volley of mini-rockets.'
+                description: 'Launch a continuous volley of mini-rockets.',
             },
             {
                 name: 'Hover Jets',
-                description: 'Hold to hover.'
-            }
-        ]
+                description: 'Hold to hover.',
+            },
+        ],
     },
     {
-        name: "Ramattra",
-        role: "Tank",
-        origin: "Shambali Monastery, Nepal",
-        bio: "The brutal leader of Null Sector will stop at nothing to see his vision for the world realized.",
+        name: 'Ramattra',
+        role: 'Tank',
+        origin: 'Shambali Monastery, Nepal',
+        bio: 'The brutal leader of Null Sector will stop at nothing to see his vision for the world realized.',
         abilities: [
             {
                 name: 'Void Accelerator (Omnic Form)',
-                description: 'Fire a stream of projectiles in a fixed pattern.'
+                description: 'Fire a stream of projectiles in a fixed pattern.',
             },
             {
                 name: 'Void Barrier (Omnic Form)',
-                description: 'Create a barrier at the target location.'
+                description: 'Create a barrier at the target location.',
             },
             {
                 name: 'Pummel (Nemesis Form)',
-                description: 'Punch forward, creating a wave of piercing energy with every swing.'
+                description: 'Punch forward, creating a wave of piercing energy with every swing.',
             },
             {
                 name: 'Ravenous Vortex',
-                description: 'Fire a nano ball, which explodes when it hits the ground, spreading a damaging field. Affected enemies are slowed and pulled downward.'
+                description: 'Fire a nano ball, which explodes when it hits the ground, spreading a damaging field. Affected enemies are slowed and pulled downward.',
             },
             {
                 name: 'Annihilation',
-                description: 'Enter Nemesis Form and create an energy swarm surrounding yourself. This swarm will lash our towars nearby enemies, dealing damage and pausing the duration when the damage is dealt.'
-            }
-        ]
+                description: 'Enter Nemesis Form and create an energy swarm surrounding yourself. This swarm will lash out towards nearby enemies, dealing damage and pausing the duration when the damage is dealt.',
+            },
+        ],
     },
     {
-        name: "Reaper",
-        role: "Damage",
-        origin: "Rome, Italy",
+        name: 'Reaper',
+        role: 'Damage',
+        origin: 'Rome, Italy',
         bio: 'Some speak of a black-robed terrorist known only as the Reaper. His identity and motives are a mystery. What is known is that where he appears, death follows.',
         abilities: [
             {
                 name: 'Hellfire Shotguns',
-                description: 'Short-range spread weapons.'
+                description: 'Short-range spread weapons.',
             },
             {
                 name: 'Shadow Step',
-                description: 'Teleport to a targeted location.'
+                description: 'Teleport to a targeted location.',
             },
             {
                 name: 'Wraith Form',
-                description: 'Move faster and become invulerable, but you cannot shoot.'
+                description: 'Move faster and become invulnerable, but you cannot shoot.',
             },
             {
                 name: 'Death Blossom',
-                description: 'Damage all nearby enemies.'
+                description: 'Damage all nearby enemies.',
             },
             {
                 name: 'The Reaping',
-                description: 'Dealing damage heals you.'
-            }
-        ]
+                description: 'Dealing damage heals you.',
+            },
+        ],
     },
     {
-        name: "Reinhardt",
-        role: "Tank",
-        origin: "Stuttgart, Germany (formerly), Watchpoint: Gibraltar",
-        bio: "Reinhardt Wilhelm styles himself as a champion of a bygone age, who lives by the knightly codes of valor, justice, and courage.",
+        name: 'Reinhardt',
+        role: 'Tank',
+        origin: 'Stuttgart, Germany (formerly), Watchpoint: Gibraltar',
+        bio: 'Reinhardt Wilhelm styles himself as a champion of a bygone age, who lives by the knightly codes of valor, justice, and courage.',
         abilities: [
             {
                 name: 'Rocket Hammer',
-                description: 'Devastating melee weapon.'
+                description: 'Devastating melee weapon.',
             },
             {
                 name: 'Charge',
-                description: 'Charge forward and smash an enemy against a wall.'
+                description: 'Charge forward and smash an enemy against a wall.',
             },
             {
                 name: 'Fire Strike',
-                description: 'Launch a fiery projectile'
+                description: 'Launch a fiery projectile',
             },
             {
                 name: 'Barrier Field',
-                description: 'Hold to depoly a frontal energy barrier.'
+                description: 'Hold to deploy a frontal energy barrier.',
             },
             {
                 name: 'Earthshatter',
-                description: 'Knock down all enemies in front of you.'
-            }
-        ]
+                description: 'Knock down all enemies in front of you.',
+            },
+        ],
     },
     {
-        name: "Roadhog",
-        role: "Tank",
-        origin: "Junkertown, Australia (formerly)",
+        name: 'Roadhog',
+        role: 'Tank',
+        origin: 'Junkertown, Australia (formerly)',
         bio: 'Roadhog is a powerful enforcer with a well-earned reputation for random and wanton destruction.',
         abilities: [
             {
                 name: 'Scrap Gun',
-                description: 'Short-range spread weapon'
+                description: 'Short-range spread weapon',
             },
             {
                 name: 'Chain Hook',
-                description: 'Drag a targeted enemy to you.'
+                description: 'Drag a targeted enemy to you.',
             },
             {
                 name: 'Take A Breather',
-                description: 'Heal yourself and reduce damage taken over a short time.'
+                description: 'Heal yourself and reduce damage taken over a short time.',
             },
             {
                 name: 'Whole Hog',
-                description: 'Damage and knock back enemies in front of you.'
-            }
-        ]
+                description: 'Damage and knock back enemies in front of you.',
+            },
+        ],
     },
     {
-        name: "Sigma",
-        role: "Tank",
-        origin: "The Hague, Netherlands (formerly), International Space Station (formerly)",
+        name: 'Sigma',
+        role: 'Tank',
+        origin: 'The Hague, Netherlands (formerly), International Space Station (formerly)',
         bio: "Brilliant astrophysicist Dr. Siebren de Kuiper's life changed forever when an experiment gone wrong gave him the ability to control gravity; now, Talon manipulates him to their own ends.",
         abilities: [
             {
-                name: "Hyperspheres",
-                description: "Lauch two charges which implode after a short duration, deaking damage in an area."
+                name: 'Hyperspheres',
+                description: 'Launch two charges which implode after a short duration, dealing damage in an area.',
             },
             {
-                name: "Kinetic Grasp",
-                description: "Absorb projectiles in front of you and conver them into shields."
+                name: 'Kinetic Grasp',
+                description: 'Absorb projectiles in front of you and convert them into shields.',
             },
             {
-                name: "Accertion",
-                description: "Gather a mass of debris and throw it at an enemy to knock them down."
+                name: 'Accretion',
+                description: 'Gather a mass of debris and throw it at an enemy to knock them down.',
             },
             {
-                name: "Experimental Barrier",
-                description: "Hold to propel a floating barrier;' release to stop. Press again to recall the barrier to you."
+                name: 'Experimental Barrier',
+                description: "Hold to propel a floating barrier;' release to stop. Press again to recall the barrier to you.",
             },
             {
-                name: "Gravitic Flux",
-                description: "Manipulate gravity to lift enemies into the air and slam them back down"
-            }
-        ]
+                name: 'Gravitic Flux',
+                description: 'Manipulate gravity to lift enemies into the air and slam them back down',
+            },
+        ],
     },
     {
-        name: "Sojourn",
-        role: "Damage",
-        origin: "Toronto, Canada",
-        bio: "As a leader in the bygone days of Overwatch, Vivian Chase, callsign Sojourn, is determined to ensure its new heroes don’t repeat the mistakes of the past.",
+        name: 'Sojourn',
+        role: 'Damage',
+        origin: 'Toronto, Canada',
+        bio: 'As a leader in the bygone days of Overwatch, Vivian Chase, callsign Sojourn, is determined to ensure its new heroes don’t repeat the mistakes of the past.',
         abilities: [
             {
                 name: 'Railrun',
-                description: "Rapid firing projectiles that generate energy on hit. Hit impact shot that consumes stored energy."
+                description: 'Rapid firing projectiles that generate energy on hit. Hit impact shot that consumes stored energy.',
             },
             {
-                name: "Power Slide",
-                description: 'Ground slide that can cancel into a high jump.'
+                name: 'Power Slide',
+                description: 'Ground slide that can cancel into a high jump.',
             },
             {
                 name: 'Disruptor Shot',
-                description: 'Launch an energy burst that snares and deals damage to enemies within it.'
+                description: 'Launch an energy burst that snares and deals damage to enemies within it.',
             },
             {
                 name: 'Overclock',
-                description: 'Railgun energy auto-charges for a short duration and charged shots pierce enemies'
-            }
-        ]
+                description: 'Railgun energy auto-charges for a short duration and charged shots pierce enemies',
+            },
+        ],
     },
     {
-        name: "Soldier: 76",
-        role: "Damage",
-        origin: "Unknown",
+        name: 'Soldier: 76',
+        role: 'Damage',
+        origin: 'Unknown',
         bio: "The target of an international manhunt, the vigilante known as Soldier: 76 wages a personal war to expose the truth behind Overwatch's collapse.",
         abilities: [
             {
-                name: "Heavy Pulse Rifle",
-                description: "Automatic assault weapon."
+                name: 'Heavy Pulse Rifle',
+                description: 'Automatic assault weapon.',
             },
             {
-                name: "Sprint",
-                description: "Run faster while moving forward."
+                name: 'Sprint',
+                description: 'Run faster while moving forward.',
             },
             {
-                name: "Biotic Field",
-                description: 'Deploy a field that heals you and your allies.'
+                name: 'Biotic Field',
+                description: 'Deploy a field that heals you and your allies.',
             },
             {
-                name: "Helix Rockets",
-                description: "Launch a volley of explosive rockets."
+                name: 'Helix Rockets',
+                description: 'Launch a volley of explosive rockets.',
             },
             {
-                name: "Tactile Visor",
-                description: "Automatically aims your weapon at targets in view."
-            }
-        ]
+                name: 'Tactile Visor',
+                description: 'Automatically aims your weapon at targets in view.',
+            },
+        ],
     },
     {
-        name: "Sombra",
-        role: "Damage",
-        origin: "Dorado, Mexico",
+        name: 'Sombra',
+        role: 'Damage',
+        origin: 'Dorado, Mexico',
         bio: "One of the world's most notorious hackers, Sombra uses information to manipulate those in power.",
         abilities: [
             {
                 name: 'Machine Pistol',
-                description: 'Short-range automatic weapon'
+                description: 'Short-range automatic weapon',
             },
             {
                 name: 'Hack',
-                description: "Hold to hack. Hacked enemies cannot use abilies briefly and can be seen through walls. Hacked health packs spawn faster but can't be used by enemies. Taking damage interrupts the hack attempt."
+                description: "Hold to hack. Hacked enemies cannot use abilities briefly and can be seen through walls. Hacked health packs spawn faster but can't be used by enemies. Taking damage interrupts the hack attempt.",
             },
             {
                 name: 'Stealth',
-                description: 'Become invisible and move quickly.'
+                description: 'Become invisible and move quickly.',
             },
             {
                 name: 'Translocator',
-                description: 'Throw a beacon, then press E again to teleport it. Press ABILITY 2 to remove it.'
+                description: 'Throw a beacon, then press E again to teleport it. Press ABILITY 2 to remove it.',
             },
             {
                 name: 'EMP',
-                description: "Deals damage equals to 40% of all nearby enemies' health, hacking them and destroying barriers around you."
+                description: "Deals damage equals to 40% of all nearby enemies' health, hacking them and destroying barriers around you.",
             },
             {
                 name: 'Opportunist',
-                description: 'You detect critically injured enemies through walls, and deal 40% more damage to hacked enemies.'
-            }
-        ]
+                description: 'You detect critically injured enemies through walls, and deal 40% more damage to hacked enemies.',
+            },
+        ],
     },
     {
-        name: "Symmetra",
-        role: "Damage",
-        origin: "Utopaea, India",
-        bio: "Symmetra literally bends reality. By manipulating hard-light constructs, she crafts the world as she wishes it to be, in hopes of engineering a perfect society.",
+        name: 'Symmetra',
+        role: 'Damage',
+        origin: 'Utopaea, India',
+        bio: 'Symmetra literally bends reality. By manipulating hard-light constructs, she crafts the world as she wishes it to be, in hopes of engineering a perfect society.',
         abilities: [
             {
-                name: "Photon Projector",
-                description: "Short-range beam weapon with increasing damage."
+                name: 'Photon Projector',
+                description: 'Short-range beam weapon with increasing damage.',
             },
             {
-                name: "Sentry Turret",
-                description: "Deploy a small turret that damages and slows enemies."
+                name: 'Sentry Turret',
+                description: 'Deploy a small turret that damages and slows enemies.',
             },
             {
-                name: "Teleporter",
-                description: "Create two temporary teleporters that enable instant travel between them."
+                name: 'Teleporter',
+                description: 'Create two temporary teleporters that enable instant travel between them.',
             },
             {
-                name: "Photon Barrier",
-                description: "Deploy a massive energy barrier."
-            }
-        ]
+                name: 'Photon Barrier',
+                description: 'Deploy a massive energy barrier.',
+            },
+        ],
     },
     {
-        name: "Torbjörn",
-        role: "Damage",
-        origin: "Gothenburg, Sweden",
-        bio: "At its height, Overwatch possessed one of the most advanced armaments on the planet, which could be traced to the workshop of an ingenious engineer named Torbjörn Lindholm.",
+        name: 'Torbjörn',
+        role: 'Damage',
+        origin: 'Gothenburg, Sweden',
+        bio: 'At its height, Overwatch possessed one of the most advanced armaments on the planet, which could be traced to the workshop of an ingenious engineer named Torbjörn Lindholm.',
         abilities: [
             {
-                name: "Rivet Gun",
-                description: "Slow firing, long-ranged weapon. Inaccurate but short-range weapon."
+                name: 'Rivet Gun',
+                description: 'Slow firing, long-ranged weapon. Inaccurate but short-range weapon.',
             },
             {
-                name: "Forge Hammer",
-                description: "Swing to repair your turret or damage an enemy."
+                name: 'Forge Hammer',
+                description: 'Swing to repair your turret or damage an enemy.',
             },
             {
-                name: "Deploy Turret",
-                description: "Deploy a self-building turret."
+                name: 'Deploy Turret',
+                description: 'Deploy a self-building turret.',
             },
             {
-                name: "Overload",
-                description: "Gain additional extra health as well as improved attack, movement, and reload speed."
+                name: 'Overload',
+                description: 'Gain additional extra health as well as improved attack, movement, and reload speed.',
             },
             {
-                name: "Molten Core",
-                description: "Create pools of molten slag that damage enemies. Deals additional damage to armor."
-            }
-        ]
+                name: 'Molten Core',
+                description: 'Create pools of molten slag that damage enemies. Deals additional damage to armor.',
+            },
+        ],
     },
     {
-        name: "Tracer",
-        role: "Damage",
-        origin: "London, England, Watchpoint: Gibraltar",
-        bio: "The former Overwatch agent known as Tracer is a time-jumping adventurer and an irrepressible force for good.",
+        name: 'Tracer',
+        role: 'Damage',
+        origin: 'London, England, Watchpoint: Gibraltar',
+        bio: 'The former Overwatch agent known as Tracer is a time-jumping adventurer and an irrepressible force for good.',
         abilities: [
             {
-                name: "Pulse Pistols",
-                description: "Short-range automatic weapons."
+                name: 'Pulse Pistols',
+                description: 'Short-range automatic weapons.',
             },
             {
-                name: "Blink",
-                description: "Teleport in the direction you are moving."
+                name: 'Blink',
+                description: 'Teleport in the direction you are moving.',
             },
             {
-                name: "Recall",
-                description: "Travel back in time to your previous location and health."
+                name: 'Recall',
+                description: 'Travel back in time to your previous location and health.',
             },
             {
-                name: "Pulse Bomb",
-                description: "Throw out a powerful sticky explosive."
-            }
-        ]
+                name: 'Pulse Bomb',
+                description: 'Throw out a powerful sticky explosive.',
+            },
+        ],
     },
     {
-        name: "Widowmaker",
-        role: "Damage",
-        origin: "Annecy, France",
-        bio: "Widowmaker is the perfect assassin: a patient, ruthlessly efficient killer who shows neither emotion nor remorse.",
-        abilities: [
-            {
-                name: "Widow's Kiss",
-                description: "Automatic assault weapon. Hold for long-range sniper weapon."
-            },
-            {
-                name: "Grappling Hook",
-                description: "Launch a hook that pulls you towards a ledge."
-            },
-            {
-                name: "Venom Mine",
-                description: "Launch a poison trap."
-            },
-            {
-                name: "Infra-Sight",
-                description: "Provide your team with a view of the enemy's location."
-            }
-        ]
-    },
-    {
-        name: "Mercy",
-        role: "Support",
-        origin: "Zürich, Switzerland (formerly), Watchpoint: Gibraltar",
-        bio: 'A guardian angel to those who come under her care, Dr. Angela Ziegler is a peerless healer, a brilliant scientist, and a staunch advocate for peace.',
-        abilities: [
-            {
-                name: 'Caduceus Staff',
-                description: 'Hold to heal an ally.'
-            },
-            {
-                name: 'Caduceus Blaster',
-                description: 'Automatic weapon.'
-            },
-            {
-                name: 'Guardian Angel',
-                description: 'Fly towards an ally. While in flight, Jump launches you forward, and Crouch lauches you upward.'
-            },
-            {
-                name: 'Resurrect',
-                description: 'Revive a dead teammate.'
-            },
-            {
-                name: 'Angelic Descent',
-                description: 'Fall very slowly.'
-            },
-            {
-                name: 'Valkyrie',
-                description: 'Gain ability to fly. Abilities are enhanced.'
-            }
-        ]
-    },
-    {
-        name: "Moira",
-        role: "Support",
-        origin: 'Oasis, Iraq',
-        bio: "Equal parts brilliant and controversial, scientist Moira O'Deorain is on the cutting edge of genetic engineering, searching for a way to rewrite the fundamental building blocks of life.",
-        abilities: [
-            {
-                name: 'Biotic Grasp',
-                description: 'Hold to heal all allies in front of you. Consumes biotic energy. Long range beam weapon. Damage dealt heals you and replenishes your biotic energy.'
-            },
-            {
-                name: 'Biotic Orb',
-                description: 'Launch a bouncing sphere that either heals nearby allies or damages nearby enemies.'
-            },
-            {
-                name: 'Fade',
-                description: 'Disappear, move faster, and become invulnerable, you cannot shoot.'
-            },
-            {
-                name: 'Coalescence',
-                description: 'Fire a beam that heals allies and damages enemies'
-            }
-        ]
-    },
-    {
-        name: "Orisa",
-        role: "Tank",
-        origin: "Numbani, Africa",
-        bio: "Built from parts of one of Numbani's short-lived OR15 defense robots, Orisa is the city's newest protector, though she still has much to learn.",
-        abilities: [
-            {
-                name: 'Augmented Fusion Driver',
-                description: 'Automatic heat based automatic. Deals more damage at closer range.'
-            },
-            {
-                name: 'Energy Javelin',
-                description: 'Launch your javelin at an enemy to stun and knock them back. More effective if the enemy hits a wall'
-            },
-            {
-                name: 'Fortify',
-                description: 'Gain temporary health, reducing all damage taken and becoming unstoppable. While active, heat generated by your weapon is reduced.'
-            },
-            {
-                name: 'Javelin Spin',
-                description: 'Spin your javelin to destroy projectiles and block melee attacks, while also pushing enemies and increasing forward speed.'
-            },
-            {
-                name: 'Terra Surge',
-                description: 'Sweep in enemies and anchor down, gaining the effects of Fortify and charging up a surge of damage. Use Q to unleash the surge early.'
-            }
-        ]
-    },
-    {
-        name: "Pharah",
-        role: "Damage",
-        origin: "Giza, Egypt (formerly), Watchpoint: Gibraltar",
-        bio: "Fareeha Amari's commitment to duty runs in her blood. She comes from a long line of highly decorated soldiers and burns with the desire to serve with honor.",
-        abilities: [
-            {
-                name: 'Rocket Launcher',
-                description: 'Long-range explosive projectile weapon.'
-            },
-            {
-                name: 'Jump Jet',
-                description: 'Fly rapidly upwards.'
-            },
-            {
-                name: 'Concussive Blast',
-                description: 'Launch an explosive blast to knock back enemies.'
-            },
-            {
-                name: 'Barrage',
-                description: 'Launch a continuous volley of mini-rockets.'
-            },
-            {
-                name: 'Hover Jets',
-                description: 'Hold to hover.'
-            }
-        ]
-    },
-    {
-        name: "Ramattra",
-        role: "Tank",
-        origin: "Shambali Monastery, Nepal",
-        bio: "The brutal leader of Null Sector will stop at nothing to see his vision for the world realized.",
-        abilities: [
-            {
-                name: 'Void Accelerator (Omnic Form)',
-                description: 'Fire a stream of projectiles in a fixed pattern.'
-            },
-            {
-                name: 'Void Barrier (Omnic Form)',
-                description: 'Create a barrier at the target location.'
-            },
-            {
-                name: 'Pummel (Nemesis Form)',
-                description: 'Punch forward, creating a wave of piercing energy with every swing.'
-            },
-            {
-                name: 'Ravenous Vortex',
-                description: 'Fire a nano ball, which explodes when it hits the ground, spreading a damaging field. Affected enemies are slowed and pulled downward.'
-            },
-            {
-                name: 'Annihilation',
-                description: 'Enter Nemesis Form and create an energy swarm surrounding yourself. This swarm will lash our towars nearby enemies, dealing damage and pausing the duration when the damage is dealt.'
-            }
-        ]
-    },
-    {
-        name: "Reaper",
-        role: "Damage",
-        origin: "Rome, Italy",
-        bio: 'Some speak of a black-robed terrorist known only as the Reaper. His identity and motives are a mystery. What is known is that where he appears, death follows.',
-        abilities: [
-            {
-                name: 'Hellfire Shotguns',
-                description: 'Short-range spread weapons.'
-            },
-            {
-                name: 'Shadow Step',
-                description: 'Teleport to a targeted location.'
-            },
-            {
-                name: 'Wraith Form',
-                description: 'Move faster and become invulerable, but you cannot shoot.'
-            },
-            {
-                name: 'Death Blossom',
-                description: 'Damage all nearby enemies.'
-            },
-            {
-                name: 'The Reaping',
-                description: 'Dealing damage heals you.'
-            }
-        ]
-    },
-    {
-        name: "Reinhardt",
-        role: "Tank",
-        origin: "Stuttgart, Germany (formerly), Watchpoint: Gibraltar",
-        bio: "Reinhardt Wilhelm styles himself as a champion of a bygone age, who lives by the knightly codes of valor, justice, and courage.",
-        abilities: [
-            {
-                name: 'Rocket Hammer',
-                description: 'Devastating melee weapon.'
-            },
-            {
-                name: 'Charge',
-                description: 'Charge forward and smash an enemy against a wall.'
-            },
-            {
-                name: 'Fire Strike',
-                description: 'Launch a fiery projectile'
-            },
-            {
-                name: 'Barrier Field',
-                description: 'Hold to depoly a frontal energy barrier.'
-            },
-            {
-                name: 'Earthshatter',
-                description: 'Knock down all enemies in front of you.'
-            }
-        ]
-    },
-    {
-        name: "Roadhog",
-        role: "Tank",
-        origin: "Junkertown, Australia (formerly)",
-        bio: 'Roadhog is a powerful enforcer with a well-earned reputation for random and wanton destruction.',
-        abilities: [
-            {
-                name: 'Scrap Gun',
-                description: 'Short-range spread weapon'
-            },
-            {
-                name: 'Chain Hook',
-                description: 'Drag a targeted enemy to you.'
-            },
-            {
-                name: 'Take A Breather',
-                description: 'Heal yourself and reduce damage taken over a short time.'
-            },
-            {
-                name: 'Whole Hog',
-                description: 'Damage and knock back enemies in front of you.'
-            }
-        ]
-    },
-    {
-        name: "Sigma",
-        role: "Tank",
-        origin: "The Hague, Netherlands (formerly), International Space Station (formerly)",
-        bio: "Brilliant astrophysicist Dr. Siebren de Kuiper's life changed forever when an experiment gone wrong gave him the ability to control gravity; now, Talon manipulates him to their own ends.",
-        abilities: [
-            {
-                name: "Hyperspheres",
-                description: "Lauch two charges which implode after a short duration, deaking damage in an area."
-            },
-            {
-                name: "Kinetic Grasp",
-                description: "Absorb projectiles in front of you and conver them into shields."
-            },
-            {
-                name: "Accertion",
-                description: "Gather a mass of debris and throw it at an enemy to knock them down."
-            },
-            {
-                name: "Experimental Barrier",
-                description: "Hold to propel a floating barrier;' release to stop. Press again to recall the barrier to you."
-            },
-            {
-                name: "Gravitic Flux",
-                description: "Manipulate gravity to lift enemies into the air and slam them back down"
-            }
-        ]
-    },
-    {
-        name: "Sojourn",
-        role: "Damage",
-        origin: "Toronto, Canada",
-        bio: "As a leader in the bygone days of Overwatch, Vivian Chase, callsign Sojourn, is determined to ensure its new heroes don’t repeat the mistakes of the past.",
-        abilities: [
-            {
-                name: 'Railrun',
-                description: "Rapid firing projectiles that generate energy on hit. Hit impact shot that consumes stored energy."
-            },
-            {
-                name: "Power Slide",
-                description: 'Ground slide that can cancel into a high jump.'
-            },
-            {
-                name: 'Disruptor Shot',
-                description: 'Launch an energy burst that snares and deals damage to enemies within it.'
-            },
-            {
-                name: 'Overclock',
-                description: 'Railgun energy auto-charges for a short duration and charged shots pierce enemies'
-            }
-        ]
-    },
-    {
-        name: "Soldier: 76",
-        role: "Damage",
-        origin: "Unknown",
-        bio: "The target of an international manhunt, the vigilante known as Soldier: 76 wages a personal war to expose the truth behind Overwatch's collapse.",
-        abilities: [
-            {
-                name: "Heavy Pulse Rifle",
-                description: "Automatic assault weapon."
-            },
-            {
-                name: "Sprint",
-                description: "Run faster while moving forward."
-            },
-            {
-                name: "Biotic Field",
-                description: 'Deploy a field that heals you and your allies.'
-            },
-            {
-                name: "Helix Rockets",
-                description: "Launch a volley of explosive rockets."
-            },
-            {
-                name: "Tactile Visor",
-                description: "Automatically aims your weapon at targets in view."
-            }
-        ]
-    },
-    {
-        name: "Sombra",
-        role: "Damage",
-        origin: "Dorado, Mexico",
-        bio: "One of the world's most notorious hackers, Sombra uses information to manipulate those in power.",
-        abilities: [
-            {
-                name: 'Machine Pistol',
-                description: 'Short-range automatic weapon'
-            },
-            {
-                name: 'Hack',
-                description: "Hold to hack. Hacked enemies cannot use abilies briefly and can be seen through walls. Hacked health packs spawn faster but can't be used by enemies. Taking damage interrupts the hack attempt."
-            },
-            {
-                name: 'Stealth',
-                description: 'Become invisible and move quickly.'
-            },
-            {
-                name: 'Translocator',
-                description: 'Throw a beacon, then press E again to teleport it. Press ABILITY 2 to remove it.'
-            },
-            {
-                name: 'EMP',
-                description: "Deals damage equals to 40% of all nearby enemies' health, hacking them and destroying barriers around you."
-            },
-            {
-                name: 'Opportunist',
-                description: 'You detect critically injured enemies through walls, and deal 40% more damage to hacked enemies.'
-            }
-        ]
-    },
-    {
-        name: "Symmetra",
-        role: "Damage",
-        origin: "Utopaea, India",
-        bio: "Symmetra literally bends reality. By manipulating hard-light constructs, she crafts the world as she wishes it to be, in hopes of engineering a perfect society.",
-        abilities: [
-            {
-                name: "Photon Projector",
-                description: "Short-range beam weapon with increasing damage."
-            },
-            {
-                name: "Sentry Turret",
-                description: "Deploy a small turret that damages and slows enemies."
-            },
-            {
-                name: "Teleporter",
-                description: "Create two temporary teleporters that enable instant travel between them."
-            },
-            {
-                name: "Photon Barrier",
-                description: "Deploy a massive energy barrier."
-            }
-        ]
-    },
-    {
-        name: "Torbjörn",
-        role: "Damage",
-        origin: "Gothenburg, Sweden",
-        bio: "At its height, Overwatch possessed one of the most advanced armaments on the planet, which could be traced to the workshop of an ingenious engineer named Torbjörn Lindholm.",
-        abilities: [
-            {
-                name: "Rivet Gun",
-                description: "Slow firing, long-ranged weapon. Inaccurate but short-range weapon."
-            },
-            {
-                name: "Forge Hammer",
-                description: "Swing to repair your turret or damage an enemy."
-            },
-            {
-                name: "Deploy Turret",
-                description: "Deploy a self-building turret."
-            },
-            {
-                name: "Overload",
-                description: "Gain additional extra health as well as improved attack, movement, and reload speed."
-            },
-            {
-                name: "Molten Core",
-                description: "Create pools of molten slag that damage enemies. Deals additional damage to armor."
-            }
-        ]
-    },
-    {
-        name: "Tracer",
-        role: "Damage",
-        origin: "London, England, Watchpoint: Gibraltar",
-        bio: "The former Overwatch agent known as Tracer is a time-jumping adventurer and an irrepressible force for good.",
-        abilities: [
-            {
-                name: "Pulse Pistols",
-                description: "Short-range automatic weapons."
-            },
-            {
-                name: "Blink",
-                description: "Teleport in the direction you are moving."
-            },
-            {
-                name: "Recall",
-                description: "Travel back in time to your previous location and health."
-            },
-            {
-                name: "Pulse Bomb",
-                description: "Throw out a powerful sticky explosive."
-            }
-        ]
-    },
-    {
-        name: "Widowmaker",
-        role: "Damage",
-        origin: "Annecy, France",
-        bio: "Widowmaker is the perfect assassin: a patient, ruthlessly efficient killer who shows neither emotion nor remorse.",
+        name: 'Widowmaker',
+        role: 'Damage',
+        origin: 'Annecy, France',
+        bio: 'Widowmaker is the perfect assassin: a patient, ruthlessly efficient killer who shows neither emotion nor remorse.',
         abilities: [
             {
                 name: "Widow's Kiss",
-                description: "Automatic assault weapon. Hold for long-range sniper weapon."
+                description: 'Automatic assault weapon. Hold for long-range sniper weapon.',
             },
             {
-                name: "Grappling Hook",
-                description: "Launch a hook that pulls you towards a ledge."
+                name: 'Grappling Hook',
+                description: 'Launch a hook that pulls you towards a ledge.',
             },
             {
-                name: "Venom Mine",
-                description: "Launch a poison trap."
+                name: 'Venom Mine',
+                description: 'Launch a poison trap.',
             },
             {
-                name: "Infra-Sight",
-                description: "Provide your team with a view of the enemy's location."
-            }
-        ]
+                name: 'Infra-Sight',
+                description: "Provide your team with a view of the enemy's location.",
+            },
+        ],
     },
     {
-        name: "Winston",
-        role: "Tank",
-        origin: "Horizon Lunar Colony (formerly), Watchpoint: Gibraltar",
-        bio: "A super-intelligent, genetically engineered gorilla, mild-mannered Winston is a brilliant scientist and mighty champion. Fleeing the Horizon Lunar Colony, Winston found a home with Overwatch and became the hero he’d always dreamed of being... until Overwatch fell. Now, with the world facing a rising threat from Null Sector, Winston has recalled some of his friends and former allies. A new Overwatch has been born.",
+        name: 'Winston',
+        role: 'Tank',
+        origin: 'Horizon Lunar Colony (formerly), Watchpoint: Gibraltar',
+        bio: 'A super-intelligent, genetically engineered gorilla, mild-mannered Winston is a brilliant scientist and mighty champion. Fleeing the Horizon Lunar Colony, Winston found a home with Overwatch and became the hero he’d always dreamed of being... until Overwatch fell. Now, with the world facing a rising threat from Null Sector, Winston has recalled some of his friends and former allies. A new Overwatch has been born.',
         abilities: [
             {
-                name: "Tesla Cannon",
-                description: "Electric frontal-cone weapon."
+                name: 'Tesla Cannon',
+                description: 'Electric frontal-cone weapon.',
             },
             {
-                name: "Jump Pack",
-                description: "Leap forward into the air. Landing on an enemy damages them."
+                name: 'Jump Pack',
+                description: 'Leap forward into the air. Landing on an enemy damages them.',
             },
             {
-                name: "Barrier Projector",
-                description: "Deploy a protective energy dome."
+                name: 'Barrier Projector',
+                description: 'Deploy a protective energy dome.',
             },
             {
-                name: "Primal Rage",
-                description: "Gain immense health, but you can only leap and punch enemies."
-            }
-        ]
+                name: 'Primal Rage',
+                description: 'Gain immense health, but you can only leap and punch enemies.',
+            },
+        ],
     },
     {
-        name: "Wrecking Ball",
-        role: "Tank",
-        origin: "Horizon Lunar Colony (formerly), Junkertown (formerly)",
-        bio: "A resourceful and highly intelligent mechanic and fighter, Wrecking Ball rose from the laboratories of Horizon Lunar Colony to become the Junker Queen’s champion.",
+        name: 'Wrecking Ball',
+        role: 'Tank',
+        origin: 'Horizon Lunar Colony (formerly), Junkertown (formerly)',
+        bio: 'A resourceful and highly intelligent mechanic and fighter, Wrecking Ball rose from the laboratories of Horizon Lunar Colony to become the Junker Queen’s champion.',
         abilities: [
             {
-                name: "Quad Cannons",
-                description: "Automatic assault weapons."
+                name: 'Quad Cannons',
+                description: 'Automatic assault weapons.',
             },
             {
-                name: "Grappling Claw",
-                description: "Lauch a grappling claw to rapidly swing around the area. Enables high speed collisions to damage and knockback enemies."
+                name: 'Grappling Claw',
+                description: 'Lauch a grappling claw to rapidly swing around the area. Enables high-speed collisions to damage and knockback enemies.',
             },
             {
-                name: "Roll",
-                description: "Transform into a ball and increase maximum movement speed."
+                name: 'Roll',
+                description: 'Transform into a ball and increase maximum movement speed.',
             },
             {
-                name: "Piledriver",
-                description: "Slam into the ground below to damage and launch enemies upward."
+                name: 'Piledriver',
+                description: 'Slam into the ground below to damage and launch enemies upward.',
             },
             {
-                name: "Adaptive Shield",
-                description: "Create temporary personal extra health. Amount increases with more enemies nearby."
+                name: 'Adaptive Shield',
+                description: 'Create temporary personal extra health. Amount increases with more enemies nearby.',
             },
             {
-                name: "Minefield",
-                description: "Deploy a massive field of proximity mines."
-            }
-        ]
+                name: 'Minefield',
+                description: 'Deploy a massive field of proximity mines.',
+            },
+        ],
     },
     {
-        name: "Zarya",
-        role: "Tank",
-        origin: "Krasnoyarsk Front (formerly), Novoanskoye Forward Base, Siberia, Russia (formerly), Watchpoint: Gibraltar",
+        name: 'Zarya',
+        role: 'Tank',
+        origin: 'Krasnoyarsk Front (formerly), Novoanskoye Forward Base, Siberia, Russia (formerly), Watchpoint: Gibraltar',
         bio: "Aleksandra Zaryanova is one of the world's strongest women, a celebrated athlete who sacrificed personal glory to protect her family, friends, and country in a time of war.",
         abilities: [
             {
-                name: "Particle Cannon",
-                description: "Short-range linear beam weapon."
+                name: 'Particle Cannon',
+                description: 'Short-range linear beam weapon.',
             },
             {
-                name: "Particle Barrier",
-                description: "Create a damage barrier around you."
+                name: 'Particle Barrier',
+                description: 'Create a damage barrier around you.',
             },
             {
-                name: "Projected Barrier",
-                description: "Create damage barrier around an ally."
+                name: 'Projected Barrier',
+                description: 'Create damage barrier around an ally.',
             },
             {
-                name: "Graviton Surge",
-                description: "Launch a gravity well that pulls enemies to it."
+                name: 'Graviton Surge',
+                description: 'Launch a gravity well that pulls enemies to it.',
             },
             {
-                name: "Energy",
-                description: "Damage blocked by barriers increases Particle Cannon damage."
-            }
-        ]
+                name: 'Energy',
+                description: 'Damage blocked by barriers increases Particle Cannon damage.',
+            },
+        ],
     },
     {
-        name: "Zenyatta",
-        role: "Support",
-        origin: "Shambali Monastery, Nepal (formerly)",
-        bio: "Zenyatta is an omnic monk who wanders the world in search of spiritual enlightenment. It is said that those who cross his path are never the same again.",
+        name: 'Zenyatta',
+        role: 'Support',
+        origin: 'Shambali Monastery, Nepal (formerly)',
+        bio: 'Zenyatta is an omnic monk who wanders the world in search of spiritual enlightenment. It is said that those who cross his path are never the same again.',
         abilities: [
             {
-                name: "Orb of Destruction",
-                description: "Energy projectile weapon."
+                name: 'Orb of Destruction',
+                description: 'Energy projectile weapon.',
             },
             {
-                name: "Orb of Discord",
-                description: "Launch this orb at an enemy to increase the damage they take."
+                name: 'Orb of Discord',
+                description: 'Launch this orb at an enemy to increase the damage they take.',
             },
             {
-                name: "Orb of Harmony",
-                description: "Launch this orb at an ally to heal them."
+                name: 'Orb of Harmony',
+                description: 'Launch this orb at an ally to heal them.',
             },
             {
-                name: "Transcendence",
-                description: "Become invulnerable, move faster, and heal nearby allies."
+                name: 'Transcendence',
+                description: 'Become invulnerable, move faster, and heal nearby allies.',
             },
             {
-                name: "Snap Kick",
-                description: "Quick melee damage increased by 50%, and its knockback is significantly increased."
-            }
-        ]
-    },
-    {
-        name: "Wrecking Ball",
-        role: "Tank",
-        origin: "Horizon Lunar Colony (formerly), Junkertown (formerly)",
-        bio: "A resourceful and highly intelligent mechanic and fighter, Wrecking Ball rose from the laboratories of Horizon Lunar Colony to become the Junker Queen’s champion.",
-        abilities: [
-            {
-                name: "Quad Cannons",
-                description: "Automatic assault weapons."
+                name: 'Snap Kick',
+                description: 'Quick melee damage increased by 50%, and its knockback is significantly increased.',
             },
-            {
-                name: "Grappling Claw",
-                description: "Lauch a grappling claw to rapidly swing around the area. Enables high speed collisions to damage and knockback enemies."
-            },
-            {
-                name: "Roll",
-                description: "Transform into a ball and increase maximum movement speed."
-            },
-            {
-                name: "Piledriver",
-                description: "Slam into the ground below to damage and launch enemies upward."
-            },
-            {
-                name: "Adaptive Shield",
-                description: "Create temporary personal extra health. Amount increases with more enemies nearby."
-            },
-            {
-                name: "Minefield",
-                description: "Deploy a massive field of proximity mines."
-            }
-        ]
-    },
-    {
-        name: "Zarya",
-        role: "Tank",
-        origin: "Krasnoyarsk Front (formerly), Novoanskoye Forward Base, Siberia, Russia (formerly), Watchpoint: Gibraltar",
-        bio: "Aleksandra Zaryanova is one of the world's strongest women, a celebrated athlete who sacrificed personal glory to protect her family, friends, and country in a time of war.",
-        abilities: [
-            {
-                name: "Particle Cannon",
-                description: "Short-range linear beam weapon."
-            },
-            {
-                name: "Particle Barrier",
-                description: "Create a damage barrier around you."
-            },
-            {
-                name: "Projected Barrier",
-                description: "Create damage barrier around an ally."
-            },
-            {
-                name: "Graviton Surge",
-                description: "Launch a gravity well that pulls enemies to it."
-            },
-            {
-                name: "Energy",
-                description: "Damage blocked by barriers increases Particle Cannon damage."
-            }
-        ]
-    },
-    {
-        name: "Zenyatta",
-        role: "Support",
-        origin: "Shambali Monastery, Nepal (formerly)",
-        bio: "Zenyatta is an omnic monk who wanders the world in search of spiritual enlightenment. It is said that those who cross his path are never the same again.",
-        abilities: [
-            {
-                name: "Orb of Destruction",
-                description: "Energy projectile weapon."
-            },
-            {
-                name: "Orb of Discord",
-                description: "Launch this orb at an enemy to increase the damage they take."
-            },
-            {
-                name: "Orb of Harmony",
-                description: "Launch this orb at an ally to heal them."
-            },
-            {
-                name: "Transcendence",
-                description: "Become invulnerable, move faster, and heal nearby allies."
-            },
-            {
-                name: "Snap Kick",
-                description: "Quick melee damage increased by 50%, and its knockback is significantly increased."
-            }
-        ]
+        ],
     },
 ];
