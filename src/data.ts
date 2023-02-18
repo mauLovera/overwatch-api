@@ -11,7 +11,7 @@ interface Hero {
 
 export const heroes: Hero[] = [
   {
-    name: 'Ana Amarii',
+    name: 'Ana',
     role: 'Support',
     origin: 'Cairo, Egypt',
     bio: 'A founding member of Overwatch and once renowned as the greatest sniper in the world, Ana Amari comes from a long line of decorated military veterans. Though she was thought to have perished in a firefight with Talon, Ana has rejoined the fray to protect her country, family, and closest allies.',
