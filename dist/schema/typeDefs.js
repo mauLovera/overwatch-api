@@ -7,11 +7,15 @@ export const typeDefs = `#graphql
     abilities: [Abilities]
   }
 
+  type Abilities {
+    name: String
+    description: String
+  }
+
   type Query {
     heroes: [Hero]
     hero(name: String!): Hero
-    ability(name: String!): [Hero] 
-  }
+    ability(name: String!): [Hero]
 
   type Abilities {
     name: String
