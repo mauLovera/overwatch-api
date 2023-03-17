@@ -10,5 +10,19 @@ export const resolvers = {
                 return hero;
             }
         },
+        ability: (parent, { name }) => {
+            if (name) {
+                let results = heroes.filter(hero => {
+                    const ability = hero.abilities.filter(ability => ability.name.includes(name));
+                    if (ability.length) {
+                        return hero;
+                    }
+                });
+                // console.log(results)
+                if (results !== null) {
+                    return results;
+                }
+            }
+        },
     },
 };
