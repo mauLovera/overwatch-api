@@ -4,7 +4,7 @@ export const typeDefs = `#graphql
     role: String
     origin: String
     bio: String
-    abilities: Abilities
+    abilities: [Abilities]
   }
 
   type Abilities {
