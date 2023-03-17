@@ -10,10 +10,10 @@ export const resolvers = {
                 return hero;
             }
         },
-        ability: (parent, { name }) => {
-            if (name) {
+        ability: (parent, { abilityName }) => {
+            if (abilityName) {
                 let results = heroes.filter(hero => {
-                    const ability = hero.abilities.filter(ability => ability.name.includes(name));
+                    const ability = hero.abilities.filter(ability => ability.name.includes(abilityName));
                     if (ability.length) {
                         return hero;
                     }

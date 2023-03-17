@@ -754,7 +754,7 @@ export const heroes = [
                 description: 'Launch a volley of explosive rockets.',
             },
             {
-                name: 'Tactile Visor',
+                name: 'Tactical Visor',
                 description: 'Automatically aims your weapon at targets in view.',
             },
         ],
