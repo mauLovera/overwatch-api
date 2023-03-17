@@ -11,6 +11,13 @@ export const resolvers = {
 				return hero
 			}
 		},
-		
+		ability: (parent, {name}) =>{
+			if(name){
+				const ability = heroes.find(hero => {
+					return hero.abilities.includes(name)
+				})
+				return ability
+			}
+		}
 	},
 }

@@ -10,12 +10,10 @@ export const typeDefs = `#graphql
     }
   }
 
-  input
-
   type Query {
     heroes: [Hero]
     hero(name: String!): Hero
     ability(name: String!): Hero 
-    
+
   }
 `
